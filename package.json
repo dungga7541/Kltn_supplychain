@@ -1,0 +1,71 @@
+{
+  "name": "supply_chain_application",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@ethersproject/bignumber": "^5.6.1",
+    "@material-ui/core": "^4.12.4",
+    "@metamask/detect-provider": "^1.2.0",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.3",
+    "@mui/styled-engine-sc": "^5.6.1",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@truffle/contract": "^4.5.7",
+    "artifacts": "^0.0.1",
+    "axios": "^0.27.1",
+    "bootstrap": "^5.1.3",
+    "bulma": "^0.9.3",
+    "crypto-js": "^4.1.1",
+    "eth-rpc-errors": "^4.0.3",
+    "ethereum-input-data-decoder": "^0.4.1",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.6",
+    "harhat": "^1.0.1",
+    "keccak256": "^1.0.6",
+    "left-pad": "^1.3.0",
+    "merkletreejs": "^0.2.31",
+    "moralis": "^1.5.9",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.2.3",
+    "react-dom": "^18.0.0",
+    "react-drag-drop-files": "^2.3.5",
+    "react-hook-form": "^7.31.3",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-request": "^3.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^2.1.3",
+    "styled-components": "^5.3.5",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
