@@ -1,0 +1,185 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.account {
+    display: flex;
+    float: right;
+}
+.account .btn_account {
+    margin: 0% 3%;
+    width: 120px;
+    height: 48px;
+    background: #2196f3;
+    border: 1.5px solid #FF9138;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFF2E7;
+}
+p.test1 {
+    width: 180px;
+    white-space:nowrap;
+}
+
+p > span {
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align:middle;
+}
+
+.ellipsis {
+    display: inline-block;
+    width: calc(50% + 1.2em);
+    text-overflow: ellipsis;
+}
+
+.indent {
+    display:inline-flex;
+    width: calc(50% - 1.2em);
+    justify-content:flex-end;
+}
+.form_container{
+    margin: 1% 30%;
+    width: 40%;
+    background-color: rgba(255, 140, 9, 0.849);
+    border-radius: 8px;
+    color: white;
+    height: 50vh;
+}
+.form_title{
+    margin: 0 20%;
+    font-size: 30px;
+    color: white;
+    color: #2f2f30;
+    text-align: center;
+}
+.middle_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left_title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2f2f30;
+}
+
+.right_title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2f2f30;
+
+}
+
+.left_input input{
+    width: 60%;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+.right_input input{
+    width: 60%;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+.left_form_component{
+    padding: 3% 10%;
+    width: 100%;
+}
+.right_form_component{
+    padding: 3% 10%;
+    width: 100%;
+}
+.right_form{
+    margin-right:15% ;
+}
+.left_form{
+    margin-left:15% ;
+}
+.cancel_button{
+/* Auto layout */
+width: 120px;
+height: 48px;
+background: #FFF2E7;
+border: 1.5px solid #FF9138;
+box-sizing: border-box;
+box-shadow: 0px 0px 6px #E7E9F2;
+border-radius: 8px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+
+color: #FF9138;
+}
+/* button */
+.actions{
+display: flex;
+justify-content: center;
+margin-left:15px;
+}
+.left_btn{
+
+}
+.right_btn{
+
+}
+.left_btn,.right_btn{
+    padding: 3% 1%;
+}
+.add_device_button{
+    width: 120px;
+    height: 48px;
+    background: #FF9138;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.table_device {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #FFF2E7;
+    margin:0% 10% 0% 10%;
+}
+
+.table_device td, th {
+    border: 1px solid #ddd;
+    padding: 16px;
+}
+table{
+    border-radius: 20px;
+}
+.table_device tr:nth-child(even){background-color: #FFFFFF;}
+
+.table_device tr:hover {background-color: #ddd;}
+
+.table_device th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background: #FF9138;
+    color: white;
+}
+
+

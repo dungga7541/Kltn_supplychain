@@ -1,0 +1,40 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+.top_container {
+  margin: 3% 10%;
+  height: 95%;
+  display: flex;
+}
+.left_container{
+    float: left;
+    width: 20%;
+    height: 60vh;
+    padding: 0 5%;
+    border-style: dashed;
+}
+.right_container{
+    float: right;
+    width: 30%;
+    height:60vh;
+    border-style: groove;
+}
+.right_container p {
+  text-align: left;
+  margin: 0% 10%;
+}
+.btn_verify{
+  text-align: center;
+  height: 0;
+  margin: 15% 15%;
+  background-color: aqua;
+}
+.bottom_container {
+  position: fixed;
+  margin: 3% 0%;
+  width: 100%;
+  bottom: 0;   
+  left: 0;
+}
+
